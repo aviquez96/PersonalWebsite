@@ -76,7 +76,7 @@ header .container h3 {
 
 .hero-content-area {
     /* opacity: 0; */
-    /* border: solid black 1px; */
+    border: solid black 1px;
     margin-right: 400px;
     width: 500px;
     /* animation: 1s slidefade 0.5s forwards; */
@@ -95,7 +95,7 @@ header .container h3 {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     height: 150px;
     align-items: center;
     justify-content: center;
@@ -104,13 +104,20 @@ header .container h3 {
 .hero .hero-content-area .info-content-area h3 {
     font-style: normal;
     flex-basis: 33%;
-    font: normal 20px "Open Sans", sans-serif;
+    font: normal 24px "Open Sans", sans-serif;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+.hero .hero-content-area .info-content-area h3:hover {
+    transform: translate(0px, -5px);
+    transition: 0.3s transform ease-out;
 }
 
 .hero .hero-content-area .info-content-area .middle-info {
     flex-basis: 33%;
     display: flex;
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
     flex-direction: column;
     height: inherit;
     justify-content: space-evenly;
@@ -118,10 +125,9 @@ header .container h3 {
 }
 
 .hero .hero-content-area .info-content-area .middle-info h3{
-    /* border: solid 1px gray; */
+    border: solid 1px gray;
     width: 100%;
-    text-align: center;
-    padding: 10px;
+    text-align: center; 
 }
 
 /* About Me Styles */
