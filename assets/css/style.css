@@ -163,11 +163,11 @@ header .container h3 {
 
 .about-me .grid {
     display: flex;
-    /* width: 100%;
+    width: 100%;
     flex-direction: row;
     height: 500px;
-    border: 5px solid blue; */
-    /* justify-content: center; */
+    border: 5px solid blue;
+    justify-content: center;
 } 
 
 /* .about-me .grid ul {
@@ -188,39 +188,36 @@ header .container h3 {
     background-size: contain;
 } */
 
-/* .about-me .wrapper {
+.about-me .wrapper {
     display: flex;
     flex-basis: 50%;
     align-items: center;
     border: solid 2px orange;
-} */
+}
 
-/* img {
+img {
     width: 100%;
-    height: auto;
     vertical-align: bottom;
-} */
+    border-radius: 15px;
+}
 
-/* .first {
-    flex: 2;
-} */
+.second-a {
+    margin-bottom: 66%;
+}
 
-/* .second {
-    flex: 1;
-} */
-
-/* .about-me .grid .vl {
+.about-me .grid .vl {
     border-left: 3px solid #0FA8AB;
     position: relative;
     left: 4.5%;
     height: 70%;
     align-self: center;
     flex-basis: 10%;
-} */
+}
 
-/* .about-me .grid p {
+.about-me .grid p {
     border: 2px solid red;
     flex-basis: 50%;
     text-align: center;
     align-self: center;
-} */
+}
+
