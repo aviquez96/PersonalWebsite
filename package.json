@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aviquez96/PersonalWebsite/issues"
   },
-  "homepage": "https://github.com/aviquez96/PersonalWebsite#readme"
+  "homepage": "https://github.com/aviquez96/PersonalWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
